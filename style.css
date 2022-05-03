@@ -1,0 +1,141 @@
+/*------------------IMPORT---------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*------------------BODY-----------------------*/
+
+body{
+    width: 90%;
+    margin: 0 auto;
+    background: -webkit-radial-gradient(rgb(108, 179, 243), rgb(255, 255, 255));
+    background: radial-gradient(rgb(108, 179, 243), rgb(255, 255, 255));
+    font-family: 'Open Sans', sans-serif;
+}
+
+.notifi{
+    width: 200px;
+    background-color: yellow;
+    position: sticky;
+    top: 87%;
+    left: 90%;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding: 3%;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+/*------------------HEADER---------------------*/
+
+h1{
+    text-align: center;
+}
+
+.time{
+    text-align: center;
+    margin: 0px auto;
+}
+
+/*-------------------MAIN----------------------*/
+
+p{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(51, 0, 0);
+    letter-spacing: .2rem;
+}
+
+blockquote{
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 160%;
+    background-color: rgb(110, 110, 110);
+    border-left: 3px dashed black;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+.good, .bad{
+    text-transform: uppercase;
+}
+
+.good{
+    color: green;
+}
+
+.bad{
+    color: red;
+}
+
+img{
+    float: left;
+    margin: 3%;
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+    border: 3px solid black;
+    display:block;
+}
+
+/*------------------TABLE----------------------*/
+.tablec{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table{
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #333333;
+}
+
+.trf{
+    font-weight: bolder;
+}
+
+/*------------------FOOTER---------------------*/
+
+footer{
+    box-sizing: content-box;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: rgb(68, 68, 68);
+    position:absolute;
+    margin-left: 0px;
+    margin-right: 0px;
+    left: 0;
+    right: 0;
+}
+
+/*---------------------NAV---------------------*/
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:visited{
+    color: orange;
+}
+
+a:visited:hover{
+    color: blue;
+}

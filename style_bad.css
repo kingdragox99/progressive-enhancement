@@ -1,0 +1,122 @@
+/*------------------IMPORT---------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*------------------BODY-----------------------*/
+
+body{
+    background-color: #292929;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    width: 90%;
+}
+
+/*------------------HEADER---------------------*/
+
+h1{
+    text-align: center;
+}
+
+.time{
+    text-align: center;
+    margin: 0px auto;
+}
+
+/*-------------------MAIN----------------------*/
+
+#img2{
+    margin: 3% auto;
+    display: block;
+    text-align: center;
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+    background-image: url("/img/img1.jpg");
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+    border: 3px solid black;
+    display:inline-block;
+}
+
+p.p123{
+    text-align: justify;
+    display:inline-block;
+    white-space: pre;
+    position: relative;
+    margin-inline-start: -30px;
+    top: -20px; left: 40px;
+    font-weight: bold;
+}
+
+h3{
+    text-align: center;
+}
+
+p.p456{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgba(184, 184, 184, 0.5);
+    padding: 5px;
+}
+
+/*------------------TABLE----------------------*/
+
+table{
+    margin: 10px auto;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(71, 71, 71);
+}
+
+td{
+    margin: 3% auto;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+td.trt{
+    background-color: grey;
+}
+
+td.tdm{
+    background-color: orange;
+}
+
+td.tdg{
+    background-color: green;
+}
+
+td.tdb{
+    background-color: red;
+}
+
+td.tda{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+/*------------------FOOTER---------------------*/
+
+footer{
+    box-sizing: content-box;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: rgb(68, 68, 68);
+    position:absolute;
+    margin-left: 0px;
+    margin-right: 0px;
+    left: 0;
+    right: 0;
+}
