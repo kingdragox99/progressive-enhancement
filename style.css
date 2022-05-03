@@ -31,6 +31,9 @@ body{
 h1{
     text-align: center;
     font-size: xx-large;
+    width: auto;
+    height: auto;
+    background-color: yellow;
 }
 
 .time{
@@ -42,6 +45,7 @@ h1{
 
 strong{
     font-weight: bold;
+    border-left: 3px solid purple;
 }
 
 ul{
